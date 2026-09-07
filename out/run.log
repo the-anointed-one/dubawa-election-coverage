@@ -1,0 +1,41 @@
+categories @ https://dubawa.org: 51 | election categories: 5:Elections
+categories @ https://ghana.dubawa.org: 31 | election categories: 910:Election News, 5:Elections
+types @ https://dubawa.org: posts
+2023-02-25 Nigeria        Presidential                        pulled=318 confirmed=122 review=131 no_content_type=1
+2023-06-24 Sierra Leone   Presidential                        pulled=534 confirmed=51 review=403 no_content_type=3
+2023-10-10 Liberia        Presidential                        pulled=626 confirmed=73 review=469 no_content_type=2
+2023-11-14 Liberia        Presidential Run-off                pulled=627 confirmed=105 review=460 no_content_type=3
+2024-03-24 Senegal        Presidential                        pulled=298 confirmed=33 review=124 no_content_type=30
+2024-11-17 Senegal        Parliamentary                       pulled=272 confirmed=31 review=151 no_content_type=13
+types @ https://ghana.dubawa.org: posts
+2024-12-07 Ghana          Presidential and Parliamentary      pulled=177 confirmed=142 review=34 no_content_type=2
+2025-04-22 Liberia        Nimba County Senate By-election     pulled=724 confirmed=60 review=507 no_content_type=5
+2025-09-21 Guinea         Referendum                          pulled=311 confirmed=31 review=103 no_content_type=3
+2025-10-25 Cote d'Ivoire  Presidential                        pulled=399 confirmed=87 review=148 no_content_type=2
+2025-11-23 Guinée Bissau  Presidential (suspended - attempted coup) pulled=336 confirmed=65 review=93 no_content_type=3
+2025-12-27 Cote d'Ivoire  Parliamentary                       pulled=405 confirmed=35 review=211 no_content_type=3
+2025-12-28 Guinea         Presidential                        pulled=351 confirmed=64 review=107 no_content_type=14
+2026-01-11 Benin          Parliamentary                       pulled=265 confirmed=25 review=86 no_content_type=7
+2026-04-12 Benin          Presidential                        pulled=213 confirmed=18 review=47 no_content_type=10
+2026-05-31 Guinea         Parliamentary                       pulled=322 confirmed=27 review=110 no_content_type=10
+
+duplicates dropped (post kept for the election it is nearest to):
+2023-02-25 Nigeria        master -0 review -0
+2023-06-24 Sierra Leone   master -2 review -54
+2023-10-10 Liberia        master -39 review -395
+2023-11-14 Liberia        master -24 review -333
+2024-03-24 Senegal        master -1 review -67
+2024-11-17 Senegal        master -0 review -14
+2024-12-07 Ghana          master -0 review -0
+2025-04-22 Liberia        master -0 review -196
+2025-09-21 Guinea         master -7 review -38
+2025-10-25 Cote d'Ivoire  master -18 review -57
+2025-11-23 Guinée Bissau  master -28 review -33
+2025-12-27 Cote d'Ivoire  master -13 review -117
+2025-12-28 Guinea         master -34 review -60
+2026-01-11 Benin          master -8 review -55
+2026-04-12 Benin          master -8 review -8
+2026-05-31 Guinea         master -5 review -57
+
+master.csv: 782 rows (969 before dedupe) | review.csv: 1700 rows (3184 before dedupe)
+summary.csv: 17 rows x 17 cols
